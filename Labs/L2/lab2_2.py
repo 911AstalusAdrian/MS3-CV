@@ -43,7 +43,7 @@ def fill_contour_image(image_path):
 
 # Example usage:
 if __name__ == "__main__":
-    image_path = r'D:\Uni\MS3-CV\Labs\L2\opencv_logo.png' 
+    image_path = r'D:\Uni\MS3-CV\Labs\L2\circle.png'
     seed_point = (252, 252)
 
     # Process the image

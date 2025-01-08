@@ -85,5 +85,5 @@ def main(image_path):
     plt.tight_layout()
     plt.show()
 
-image_path = r'D:\Uni\MS3-CV\Labs\L5\linesandcrcles.png'
+image_path = r'D:\Uni\MS3-CV\Labs\L5\circlesandlines.jpg'
 main(image_path)

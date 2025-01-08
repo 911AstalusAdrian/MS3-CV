@@ -148,10 +148,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-   #  plant2
-   #  duck2
-   #  dog2
-   #  dog4

@@ -25,7 +25,7 @@ model.compile(
 results = model.fit(
     train_images, train_masks,
     validation_data = (test_images,test_masks),
-    epochs=5,
+    epochs=60,
     batch_size=batch
 )
 
@@ -56,3 +56,7 @@ for i in range(5):
     ax[i,2].set_title('Prediction')
 fig.suptitle('Results', fontsize=16)
 plt.show()  
+
+
+# import tensorflow as tf
+# print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
